@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 720px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #888;
+  margin-bottom: 24px;
+  font-size: 1rem;
+}
+
+.code-input {
+  width: 100%;
+  background: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+  resize: vertical;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.code-input:focus {
+  outline: none;
+  border-color: #ff4500;
+}
+
+.intensity-selector {
+  margin-bottom: 20px;
+}
+
+.intensity-selector label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.intensity-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.intensity-btn {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #1a1a1a;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.intensity-btn:hover {
+  border-color: #ff4500;
+  color: #fff;
+}
+
+.intensity-btn.active {
+  background: #ff4500;
+  border-color: #ff4500;
+  color: #fff;
+  font-weight: bold;
+}
+
+.roast-btn {
+  width: 100%;
+  padding: 14px;
+  background: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-bottom: 24px;
+}
+
+.roast-btn:hover:not(:disabled) {
+  background: #e03d00;
+}
+
+.roast-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.roast-output {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-left: 4px solid #ff4500;
+  border-radius: 8px;
+  padding: 20px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.roast-output h2 {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  color: #ff4500;
+}
+
+.error {
+  color: #ff6b6b;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
