@@ -1,16 +1,33 @@
-# React + Vite
+# 🔥 Code Roaster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Paste your code. Brace yourself.
 
-Currently, two official plugins are available:
+**Code Roaster** is an AI-powered web app that gives your code brutally honest (and hilarious) feedback. Choose your roast intensity and let the AI do the rest — from gentle mentor to absolute savagery.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Demo:** https://code-roaster-5j9g52y1h-vaish2005-uis-projects.vercel.app/ 
+---
 
-## React Compiler
+## How It Works
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Paste any code snippet into the editor — any language, any crime
+2. Pick your roast intensity:
+   - 😊 **Mild** — Kind, encouraging mentor energy
+   - 😤 **Medium** — Dry sarcasm with a sigh of disappointment
+   - 💀 **Brutal** — Absolutely no mercy. Technically accurate. Emotionally devastating.
+3. Hit **Roast My Code** and brace yourself
+4. Copy the roast and share it with your friends (or enemies)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+- **React** — UI
+- **Vite** — Build tool  
+- **Groq API** (Llama 3.3 70B) — AI inference, completely free
+- **Vercel** — Deployment
+
+---
+
+## Built For
+
+Codédex Monthly Challenge — June 2025
